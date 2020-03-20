@@ -1,0 +1,32 @@
+.add-todo-form {
+  width: 100%;
+  height: max-content;
+  max-width: 400px;
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.13);
+  padding: 20px;
+  margin-top: 30px;
+}
+.add-todo-form input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 20px;
+  margin: 10px 0;
+}
+.add-todo-form .submit-btn {
+  background: var(--primary-color);
+  padding: 15px;
+  margin-top: 20px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.add-todo-form .submit-btn:hover {
+  opacity: 0.9;
+}

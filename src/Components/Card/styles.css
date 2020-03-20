@@ -1,0 +1,38 @@
+.card {
+  width: 100%;
+  height: max-content;
+  border-radius: 3px;
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.13);
+  padding: 30px 20px;
+  animation: fadeIn 0.3s forwards;
+  position: relative;
+}
+.card strong {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+}
+.card p {
+  color: #666;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+.pop-btn {
+  border: none;
+  background: none;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
