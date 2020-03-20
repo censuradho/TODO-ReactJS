@@ -1,6 +1,6 @@
 # TO-DO-ReactJS
 
-## Querer
+## Requer
 
 Node.js pra rodar o js fora do browser
 
